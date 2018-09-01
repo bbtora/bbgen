@@ -23,9 +23,8 @@ function getRandomColor() {
 
 // function to set random colors
 function setRandom (num1, num2) {
-    body.style.background = "linear-gradient(to right, " + num1 + "," + num2 + ")";
     color1.value = num1; color2.value= num2;
-    css.textContent = body.style.background;
+    setGradient();
 }
 
 color1.addEventListener("input", setGradient);
