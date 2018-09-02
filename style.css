@@ -1,5 +1,6 @@
 body {
-	color: rgba(0,0,0,.5);
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
